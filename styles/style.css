@@ -119,8 +119,6 @@ body {
 .imagen__cui {
     display: flex;
     width: 50%;
-    padding: 5%;
-    align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -138,6 +136,16 @@ body {
     }
 
     .Contenedor__info {
+        width: auto;
+        text-align: center;
+    }
+
+    .Contenedor__info__texto {
+        width: auto
+        text-align: center;
+    }
+
+    .Contenedor__info__titulo {
         width: auto;
         text-align: center;
     }
